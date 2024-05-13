@@ -1,0 +1,68 @@
+body {
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+.otp-box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.otp-box-list {
+  display: flex;
+}
+
+.otp-box-list .otp-box {
+  width: 45px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 15px;
+  text-align: center;
+  box-shadow: 2px 2px 2px 2px teal;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.generated-otp {
+  font-size: 24px;
+}
+.otp-expire-message {
+  font-size: 24px;
+}
+
+.otp-validate-message {
+  border: 1px solid black;
+  padding: 2px;
+  font-size: 24px;
+  font-weight: 600;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.otp-validate-message.success {
+  border: 1px solid green;
+  color: green;
+}
+
+.otp-validate-message.failed {
+  border: 1px solid red;
+  color: red;
+}
